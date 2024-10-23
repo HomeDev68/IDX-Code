@@ -1,5 +1,5 @@
 {
-	"name": "IDx Code",
+	"name": "IDX Code",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},

@@ -1,6 +1,6 @@
 {
-	"nameShort": "IDx Code",
-	"nameLong": "IDx Code",
+	"nameShort": "IDX Code",
+	"nameLong": "IDX Code",
 	"applicationName": "idx-code",
 	"dataFolderName": ".vscode-oss",
 	"win32MutexName": "vscodeoss",
@@ -80,5 +80,6 @@
 				"publisherDisplayName": "Microsoft"
 			}
 		}
-	]
+	],
+	"disableTelemetry": true
 }

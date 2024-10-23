@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=IDx Code
+Name=IDX Code
 Comment=Code Editing. Redefined.
 GenericName=Text Editor
 Exec=@@EXEC@@ %F
 Icon=@@ICON@@
 Type=Application
 StartupNotify=false
-StartupWMClass=IDx Code
+StartupWMClass=IDX Code
 Categories=TextEditor;Development;IDE;
 MimeType=application/x-@@NAME@@-workspace;
 Actions=new-empty-window;
