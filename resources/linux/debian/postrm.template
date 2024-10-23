@@ -3,7 +3,7 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License. See License.txt in the project root for license information.
 
-rm -f /usr/bin/@@NAME@@
+rm -f /usr/bin/idx-code
 
 # Uninstall the desktop entry
 if hash update-desktop-database 2>/dev/null; then
@@ -18,7 +18,7 @@ fi
 RET=true
 if [ -e '/usr/share/debconf/confmodule' ]; then
 	. /usr/share/debconf/confmodule
-	db_get @@NAME@@/add-microsoft-repo || true
+	db_get idx-code/add-microsoft-repo || true
 fi
 if [ "$RET" = "true" ]; then
 	eval $(apt-config shell APT_SOURCE_PARTS Dir::Etc::sourceparts/d)

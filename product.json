@@ -1,7 +1,7 @@
 {
-	"nameShort": "Code - OSS",
-	"nameLong": "Code - OSS",
-	"applicationName": "code-oss",
+	"nameShort": "IDX Code",
+	"nameLong": "IDX Code",
+	"applicationName": "idx-code",
 	"dataFolderName": ".vscode-oss",
 	"win32MutexName": "vscodeoss",
 	"licenseName": "MIT",
@@ -80,5 +80,6 @@
 				"publisherDisplayName": "Microsoft"
 			}
 		}
-	]
+	],
+	"disableTelemetry": true
 }
