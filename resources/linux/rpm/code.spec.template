@@ -1,4 +1,4 @@
-Name:     @@NAME@@
+Name:     idx-code
 Version:  @@VERSION@@
 Release:  @@RELEASE@@.el8
 Summary:  Code editing. Redefined.
